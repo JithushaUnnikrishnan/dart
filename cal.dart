@@ -2,8 +2,6 @@ import 'dart:io';
 
 void main() {
   print('Simple Calculator');
-  print('Enter two numbers and operation (+, -, *, /):');
-
   stdout.write('Enter first number: ');
   double num1 = double.parse(stdin.readLineSync()!);
 
